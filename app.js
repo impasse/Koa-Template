@@ -1,5 +1,4 @@
 const path = require('path');
-const crypto = require('crypto');
 const Koa = require('koa');
 const convert = require('koa-convert');
 const koaBetterBody = require('koa-better-body');

@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "koa": "^2.2.0",
+    "koa-better-body": "^3.0.2",
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-error": "^3.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-logger": "^2.0.1",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.1.0",
+    "koa-session": "^5.0.0",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.1",
+    "lodash": "^4.17.4",
+    "pug": "^2.0.0-beta11"
+  }
+}

@@ -4,7 +4,6 @@ const convert = require('koa-convert');
 const koaBetterBody = require('koa-better-body');
 const koaCompress = require('koa-compress');
 const koaConditionalGet = require('koa-conditional-get');
-const koaError = require('koa-error');
 const koaEtag = require('koa-etag');
 const koaLogger = require('koa-logger');
 const koaResponseTime = require('koa-response-time');
@@ -18,10 +17,6 @@ const app = new Koa();
 
 app.keys = keys;
 
-app.use(koaError({
-    engine: 'pug',
-    template: path.join(__dirname, 'views', 'error.pug')
-}));
 app.use(koaResponseTime());
 app.use(koaLogger());
 app.use(koaCompress());
